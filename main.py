@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Sky GitHub failure retry v3 — 2026-10-08"}
+    return {"message": "Sky GitHub Local + AWS v4 — 2026-10-08"}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
